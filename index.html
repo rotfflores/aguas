@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aguas Frescas | Fresquecitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <h1>Bienvenido al Mundo de las Aguas Frescas</h1>
+    </section>
+
+    <!-- Catálogo -->
+    <section class="catalogo" id="catalogo">
+        <h2>Nuestros Sabores</h2>
+        <div class="grid-aguas">
+            <div class="card-agua">
+                <img src="/img/image-jamaica.jpg" alt="Agua de Jamaica">
+                <h3>Jamaica</h3>
+                <p>Hecha con flores de hibisco naturales.</p>
+            </div>
+            <div class="card-agua">
+                <img src="/img/image-horchata.jpg" alt="Agua de Horchata">
+                <h3>Horchata</h3>
+                <p>Clásica receta con arroz y canela.</p>
+            </div>
+            <!-- Añade más cards aquí -->
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contacto" id="contacto">
+        <h2>¡Pide tu Agua Favorita!</h2>
+        <form class="contacto-form" onsubmit="alert('Gracias por tu mensaje!'); return false;">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea rows="4" placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
