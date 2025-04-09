@@ -7,11 +7,3 @@
                 });
             });
         });
-
-        const title = document.querySelector('.hero-content');
-        const titleText = title.addeElement('h1');
-        titleText.textContent = 'Bienvenido al mundo de las aguas frescas';
-
-        title.appendChild(titleText);
-        titleText.style.opacity = '0';
-        
